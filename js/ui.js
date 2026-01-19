@@ -34,3 +34,8 @@ document.getElementById("btnCopy").addEventListener("click", async () => {
   }
 });
 
+const pestaña_title = document.getElementById("titleid");
+function renamePestaña(){
+  pestaña_title.textContent = "MI PRACTICA POO";
+}
+document.getElementById("btnRename").addEventListener("click", renamePestaña);

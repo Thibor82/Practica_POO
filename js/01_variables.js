@@ -99,7 +99,7 @@ document.getElementById("btnJsVars").addEventListener("click", () =>{
     //Crea una variable para el precio de ese producto
     //Crea una linea donde se muestre el nombre, el precio y el precio con IVA (21%)
 
-    //Crea una linea donde ponga el nombre de una varible de tipo numerica y justo despues ++
+    //Crea una linea donde ponga el nombre de una varible de tipo numérica y justo despues ++
     //ejemplo: a++
     //Muestra en una linea si el valor de la variable ha cambiado.
     //Cuando la operación funciona que es lo que realiza? Muestralo en una linea o comentario.
@@ -107,7 +107,22 @@ document.getElementById("btnJsVars").addEventListener("click", () =>{
     //Mega Extra: Crea un Boton que cambie el titulo de la pestaña por MI PRACTICA POO.
 
 
+    breakLine();
+    printTitle(" 4) Ejercicios.");
+    breakLine();
+    let product = "Pomelos";
+    let price = 3.45;
+    let tax = 0.21;
+    printLine("Ejercicio 1")
+    printLine(`Los ${product} tienen un precio de ${price}€/kg. Con impuestos finalmente un precio final de ${price + price*tax}€/kg`)
+    breakLine();
+    printLine("Ejercicio 2")
 
+    let d = 5;
+    printLine(`El valor de "d" es ${d}`);
+    d++
+    printLine(`El valor de "d" depues de operar con "d++" es de ${d}`)
+    printLine(`La instrucción ++ añade o suma 1`)
 
 
 
