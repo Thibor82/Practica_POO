@@ -94,6 +94,19 @@ document.getElementById("btnJsVars").addEventListener("click", () =>{
     console.log(a , b , c);
 
 
+    //Genera el codigo necesario para las siguientes operaciones:
+    //Crea una constante y dale el nombre de un producto,
+    //Crea una variable para el precio de ese producto
+    //Crea una linea donde se muestre el nombre, el precio y el precio con IVA (21%)
+
+    //Crea una linea donde ponga el nombre de una varible de tipo numerica y justo despues ++
+    //ejemplo: a++
+    //Muestra en una linea si el valor de la variable ha cambiado.
+    //Cuando la operación funciona que es lo que realiza? Muestralo en una linea o comentario.
+
+    //Mega Extra: Crea un Boton que cambie el titulo de la pestaña por MI PRACTICA POO.
+
+
 
 
 
